@@ -49,7 +49,7 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`w-full sticky top-0 left-0 backdrop-blur-lg transition-all duration-300 ${isScrolled ? 'pt-[44px] pb-[30px] border-b border-slate-300' : 'pt-[54px] pb-[66px]'}`}>
+        <nav className={`w-full sticky top-0 left-0 backdrop-blur-lg transition-all duration-300 ${isScrolled ? 'pt-[36px] pb-[22px] border-b border-slate-300' : 'pt-[54px] pb-[66px]'}`}>
             <div className="w-container flex justify-between mx-auto">
                 <img src={Logo} alt="Logo" />
                 <div className="flex gap-[46px]">
