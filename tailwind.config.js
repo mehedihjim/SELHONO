@@ -8,8 +8,12 @@ export default {
     extend: {
       width: {
         'container': '1210px',
-      }
+      },
     },
+    fontFamily: {
+      'primary': '"DM Serif Display", serif',
+      'secondary': '"Jost", sans-serif',
+    }
   },
   plugins: [],
 }
